@@ -59,7 +59,8 @@ Total Loss = Classification Loss + λ × Sparsity Loss
 * At **λ = 1**, the model retains most connections, achieving higher accuracy with limited pruning
 * At **λ = 50**, the model achieves the best balance, pruning nearly half the weights while maintaining reasonable performance
 * At **λ = 10000**, the sparsity term dominates the loss, forcing most gates toward zero and leading to model collapse (random accuracy ~10%)
-
+  
+**Best trade-off achieved at λ = 50**, balancing ~44% sparsity with ~48% accuracy.
 ---
 
 ## ⚠️ Key Insight
