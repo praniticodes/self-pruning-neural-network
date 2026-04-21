@@ -3,7 +3,8 @@
 ### (Tredence AI Engineering Case Study)
 
 ---
-
+## 🔗 Run on Google Colab
+[Open Notebook](https://colab.research.google.com/drive/1HzHNQjclTzJEgln88_XtagMZ1LhBaCQ6?usp=sharing)
 ## 📌 Overview
 
 This project implements a **self-pruning neural network** that dynamically learns which connections to remove during training.
